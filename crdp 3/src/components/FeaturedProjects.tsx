@@ -29,7 +29,7 @@ export default function FeaturedProjects() {
           {projects.map((p, i) => (
             <motion.a
               key={p.id}
-              href="#portfolio"
+              href={`/projects/${p.id}`}
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}

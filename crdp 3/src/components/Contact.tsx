@@ -28,7 +28,7 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: wire to a form backend (e.g. Resend, Formspree, or a server action).
+    // Form backend can be connected later. For now this is client-side only.
     setSent(true);
   };
 

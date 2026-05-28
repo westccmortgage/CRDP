@@ -55,7 +55,7 @@ export default function Portfolio() {
             <motion.a
               layout
               key={p.id}
-              href="#contact"
+              href={`/projects/${p.id}`}
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}

@@ -4,6 +4,26 @@ export type ProjectStatus =
   | "Coming Soon"
   | "Under Construction";
 
+export interface GalleryImage {
+  src: string;
+  alt: string;
+  caption: string;
+  span?: "wide" | "tall" | "standard";
+}
+
+export interface ProjectSpec {
+  label: string;
+  value: string;
+}
+
+export interface ProjectDetail {
+  intro: string;
+  paragraphs: string[];
+  specs: ProjectSpec[];
+  materials: string[];
+  gallery: GalleryImage[];
+}
+
 export interface Project {
   id: string;
   name: string;
@@ -15,6 +35,7 @@ export interface Project {
   image: string;
   blurb: string;
   featured?: boolean;
+  detail: ProjectDetail;
 }
 
 export interface MediaItem {
