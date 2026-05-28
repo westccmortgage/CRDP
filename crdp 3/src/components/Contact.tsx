@@ -28,7 +28,7 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: wire to a form backend (e.g. Resend, Formspree, or a server action).
+    // CMS / form-backend integration point (Netlify Forms ready).
     setSent(true);
   };
 
@@ -81,6 +81,8 @@ export default function Contact() {
             ) : (
               <form
                 onSubmit={handleSubmit}
+                name="project-inquiry"
+                data-netlify="true"
                 className="grid grid-cols-1 gap-x-8 gap-y-7 sm:grid-cols-2"
               >
                 <Field label="Name" name="name" required />

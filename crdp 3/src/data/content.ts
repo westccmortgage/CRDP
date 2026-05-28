@@ -2,44 +2,44 @@ import { MediaItem, Capability } from "@/lib/types";
 
 export const media: MediaItem[] = [
   {
-    id: "palisades-cinematic",
-    title: "Palisades — Cinematic Reveal",
-    category: "Cinematic",
-    duration: "2:14",
-    poster: "/images/media-cinematic.jpg",
-    location: "Pacific Palisades",
-  },
-  {
-    id: "mandeville-drone",
-    title: "Mandeville Canyon — Aerial Survey",
-    category: "Drone",
-    duration: "1:48",
-    poster: "/images/media-drone.jpg",
-    location: "Mandeville Canyon",
-  },
-  {
-    id: "sherman-oaks-progress",
-    title: "Sherman Oaks — Construction Progress",
+    id: "beverly-hills-progress",
+    title: "Beverly Hills — Construction Progress",
     category: "Construction",
-    duration: "3:02",
-    poster: "/images/media-construction.jpg",
-    location: "Sherman Oaks",
-  },
-  {
-    id: "beverly-transform",
-    title: "Beverly Hills — Before / After",
-    category: "Before / After",
-    duration: "1:36",
-    poster: "/images/media-beforeafter.jpg",
+    duration: "Photo Series",
+    poster: "/images/projects/3001-hutton-place-02-2560x1920.jpg",
     location: "Beverly Hills",
   },
   {
-    id: "brentwood-walkthrough",
-    title: "Brentwood Hillside — Walkthrough",
+    id: "palisades-cinematic",
+    title: "Pacific Palisades — Coastal Residences",
+    category: "Cinematic",
+    duration: "Gallery",
+    poster: "/images/projects/1142-bienveneda-06-1800x1200.jpg",
+    location: "Pacific Palisades",
+  },
+  {
+    id: "mandeville-walkthrough",
+    title: "Mandeville Canyon — Residence Details",
     category: "Walkthrough",
-    duration: "4:21",
-    poster: "/images/media-walkthrough.jpg",
-    location: "Brentwood",
+    duration: "Gallery",
+    poster: "/images/projects/3348-mandeville-02-1800x1202.jpg",
+    location: "Mandeville Canyon",
+  },
+  {
+    id: "sherman-oaks-modern",
+    title: "Sherman Oaks — Modern Estate",
+    category: "Before / After",
+    duration: "Gallery",
+    poster: "/images/projects/3802-hollyline-02-1024x768.jpg",
+    location: "Sherman Oaks",
+  },
+  {
+    id: "century-city-development",
+    title: "Century City — Condominium Development",
+    category: "Cinematic",
+    duration: "Gallery",
+    poster: "/images/projects/10278-10280-missouri-02-1680x1103.jpg",
+    location: "Los Angeles",
   },
 ];
 
@@ -49,41 +49,41 @@ export const capabilities: Capability[] = [
     index: "01",
     title: "Ground-Up Residential Development",
     description:
-      "From raw land and entitlements to finished residence — full lifecycle delivery of new luxury homes.",
+      "Full-cycle delivery of new luxury residences — from site planning and approvals through construction, finish execution, and final presentation.",
   },
   {
-    id: "remodels",
+    id: "redevelopment",
     index: "02",
-    title: "Luxury Remodels",
+    title: "Residential Redevelopment",
     description:
-      "Whole-home transformations that elevate legacy properties to contemporary standards of craft and comfort.",
+      "Transforming existing properties into refined, market-ready homes through design discipline, construction control, and careful value creation.",
   },
   {
     id: "construction-management",
     index: "03",
     title: "Construction Management",
     description:
-      "Disciplined execution, trusted trades, and rigorous oversight across budget, schedule, and quality.",
+      "Coordinated oversight of trades, schedules, budgets, and quality so every stage of the build moves with precision.",
   },
   {
-    id: "entitlements",
+    id: "custom-homes",
     index: "04",
-    title: "Entitlements & Permits",
+    title: "Custom Luxury Homes",
     description:
-      "Navigating Los Angeles approvals, variances, and hillside ordinances with precision and patience.",
+      "Tailored residential environments built around privacy, proportion, natural light, indoor-outdoor living, and enduring materials.",
   },
   {
     id: "site-planning",
     index: "05",
-    title: "Site Planning",
+    title: "Site Planning & Execution",
     description:
-      "Maximizing the potential of difficult lots through grading strategy, massing, and view orientation.",
+      "Strategic planning for hillside, canyon, and infill properties across Los Angeles’ most demanding residential submarkets.",
   },
   {
     id: "finish-execution",
     index: "06",
     title: "High-End Finish Execution",
     description:
-      "Millwork, stone, metal, and glass delivered to the tolerances a discerning residence demands.",
+      "A refined approach to millwork, stone, glass, flooring, fixtures, and architectural details that define the feel of a luxury residence.",
   },
 ];
